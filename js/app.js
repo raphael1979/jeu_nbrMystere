@@ -1,5 +1,5 @@
 $(document).ready (function(){
-	console.log("salsifi");
+	console.log("jouer");
 });
 alert("Le but du jeu est de trouver un nombre aléatoire !!!");
 
