@@ -1,7 +1,7 @@
 $(document).ready (function(){
 	console.log("jouer");
 });
-alert("Le but du jeu est de trouver un nombre aléatoire !!!");
+
 
 var min = prompt("Veuillez entrer un nombre positif minimum");
 var max = prompt("Veuillez entrer un nombre positif maximum");
@@ -23,3 +23,15 @@ for(i = 0; i < Tentative-1; i++){
 				alert("GG!!");
 				break;}
 			}
+
+
+
+
+
+/*var min = 0;
+var max = 9;
+function getRandomIntInclusive(min, max) {
+	min = Math.ceil(min);
+	max = Math.floor(max);
+	return Math.floor(Math.random() * (max - min +1)) + min;
+}*/
